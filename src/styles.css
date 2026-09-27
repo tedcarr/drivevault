@@ -253,6 +253,10 @@ button, input { font: inherit; color: inherit; }
 @media (max-width: 860px) {
   .app { grid-template-columns: 1fr; }
   .sidebar { min-height: auto; }
-  .drive-list { max-height: 180px; }
+  .drive-list {
+    max-height: none;
+    overflow: visible;
+    flex: none;
+  }
   .grid { grid-template-columns: 1fr; }
 }
